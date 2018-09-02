@@ -1,0 +1,117 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C-imm_lib-mysensors-rescue
+#
+DEF C-imm_lib-mysensors-rescue C 0 40 N N 1 F N
+F0 "C" 100 100 50 H V C CNN
+F1 "C-imm_lib-mysensors-rescue" 100 -100 50 H V C CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" -150 -50 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_Coaxial-cache
+#
+DEF Conn_Coaxial-cache J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Conn_Coaxial-cache" 115 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -50 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -150 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L-imm_lib-impulse-rescue
+#
+DEF L-imm_lib-impulse-rescue L 0 1 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "L-imm_lib-impulse-rescue" 100 0 50 V V C CNN
+F2 "Inductor_SMD:L_0402_1005Metric" -150 -150 50 V I C CNN
+F3 "" -50 0 50 H I C CNN
+DRAW
+A 0 -75 25 -899 899 1 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 1 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 1 1 0 N 0 0 0 50
+A 0 75 25 -899 899 1 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# NRF24L01-imm_lib-impulse3-rescue
+#
+DEF NRF24L01-imm_lib-impulse3-rescue U 0 40 Y Y 1 F N
+F0 "U" -450 700 50 H V L CNN
+F1 "NRF24L01-imm_lib-impulse3-rescue" 200 700 50 H V L CNN
+F2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" 200 800 50 H I L CIN
+F3 "" 0 100 50 H I C CNN
+$FPLIST
+ QFN*4x4*0.5mm*
+$ENDFPLIST
+DRAW
+A 0 200 112 1166 -266 0 1 10 N -50 300 100 150
+A 0 201 49 900 -11 0 1 10 N 0 250 50 200
+A 0 201 78 1087 -191 0 1 10 N -25 275 75 175
+C 0 200 25 0 1 10 F
+S -450 650 450 -650 0 1 10 f
+S 450 -550 450 -550 0 1 0 N
+P 2 0 1 10 0 175 0 50 N
+X CE 1 -600 0 150 R 50 50 1 1 I
+X XC1 10 600 -300 150 L 50 50 1 1 P
+X VDD_PA 11 600 500 150 L 50 50 1 1 w
+X ANT1 12 600 300 150 L 50 50 1 1 P
+X ANT2 13 600 100 150 L 50 50 1 1 P
+X VSS 14 0 -800 150 U 50 50 1 1 W
+X VDD 15 0 800 150 D 50 50 1 1 W
+X IREF 16 -600 -300 150 R 50 50 1 1 P
+X VSS 17 100 -800 150 U 50 50 1 1 W
+X VDD 18 100 800 150 D 50 50 1 1 W
+X DVDD 19 -600 -500 150 R 50 50 1 1 w
+X CSN 2 -600 200 150 R 50 50 1 1 I
+X VSS 20 200 -800 150 U 50 50 1 1 W
+X GND 21 -200 -750 100 U 50 50 1 1 W
+X SCK 3 -600 300 150 R 50 50 1 1 I C
+X MOSI 4 -600 500 150 R 50 50 1 1 I
+X MISO 5 -600 400 150 R 50 50 1 1 O
+X IRQ 6 -600 -100 150 R 50 50 1 1 O
+X VDD 7 -100 800 150 D 50 50 1 1 W
+X VSS 8 -100 -800 150 U 50 50 1 1 W
+X XC2 9 600 -500 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R-imm_lib-impulse-rescue
+#
+DEF R-imm_lib-impulse-rescue R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "R-imm_lib-impulse-rescue" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" -100 50 50 V I C CNN
+F3 "" 0 100 50 H I C CNN
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
