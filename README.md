@@ -18,20 +18,20 @@
 - 14 - PB5/SCK
 
 ### P2
-1 - PD3/RESET
-2 - PD4
-3 - PD1
-4 - PB6
-5 - PD0
-6 - PD2/IRQ
-7 - PC6
-8 - PC5
-9 - PC4
-10 - PC1
-11 - PC3
-12 - ADC7
-13 - PC2
-14 - PC0
+- 1 - PD3/RESET
+- 2 - PD4
+- 3 - PD1
+- 4 - PB6
+- 5 - PD0
+- 6 - PD2/IRQ
+- 7 - PC6
+- 8 - PC5
+- 9 - PC4
+- 10 - PC1
+- 11 - PC3
+- 12 - ADC7
+- 13 - PC2
+- 14 - PC0
 
 
 ![img](https://github.com/immortalserg/MySensors328p/blob/master/image/MySensors328p_3D.png?raw=true)
