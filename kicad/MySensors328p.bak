@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:impulse3-cache
+LIBS:MySensors328p-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -26,7 +26,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    0    0    -1  
 $EndComp
 $Comp
-L mysensors-rescue:C-imm_lib C4
+L MySensors328p-rescue:C-imm_lib-mysensors-rescue C4
 U 1 1 5B8DFDF0
 P 3250 2650
 F 0 "C4" H 3365 2696 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 3250 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mysensors-rescue:C-imm_lib C5
+L MySensors328p-rescue:C-imm_lib-mysensors-rescue C5
 U 1 1 5B8DFEF2
 P 3700 2650
 F 0 "C5" H 3815 2696 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 3700 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mysensors-rescue:C-imm_lib C9
+L MySensors328p-rescue:C-imm_lib-mysensors-rescue C9
 U 1 1 5B8DFF26
 P 4000 3000
 F 0 "C9" H 4115 3046 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 4000 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impulse-rescue:L-imm_lib L2
+L MySensors328p-rescue:L-imm_lib-impulse-rescue L2
 U 1 1 5B8DFFD7
 P 3400 3050
 F 0 "L2" V 3590 3050 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 3350 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L impulse-rescue:L-imm_lib L1
+L MySensors328p-rescue:L-imm_lib-impulse-rescue L1
 U 1 1 5B8E0A2F
 P 3200 3200
 F 0 "L1" H 3253 3246 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "" H 3150 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impulse-rescue:L-imm_lib L3
+L MySensors328p-rescue:L-imm_lib-impulse-rescue L3
 U 1 1 5B8E0D22
 P 3400 3550
 F 0 "L3" V 3590 3550 50  0000 C CNN
@@ -120,7 +120,7 @@ Wire Wire Line
 	3200 3550 3250 3550
 Connection ~ 3200 3350
 $Comp
-L mysensors-rescue:C-imm_lib C6
+L MySensors328p-rescue:C-imm_lib-mysensors-rescue C6
 U 1 1 5B8E2BE7
 P 3750 3250
 F 0 "C6" V 3498 3250 50  0000 C CNN
@@ -144,7 +144,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3250 4000 3150
 $Comp
-L cache:Conn_Coaxial J1
+L MySensors328p-rescue:Conn_Coaxial-cache J1
 U 1 1 5B8E5177
 P 4950 3150
 F 0 "J1" H 5049 3126 50  0000 L CNN
@@ -178,7 +178,7 @@ F 3 "" H 3250 2500 50  0001 C CNN
 $EndComp
 Connection ~ 3250 2500
 $Comp
-L mysensors-rescue:C-imm_lib C7
+L MySensors328p-rescue:C-imm_lib-mysensors-rescue C7
 U 1 1 5B8E616C
 P 3750 3650
 F 0 "C7" V 3498 3650 50  0000 C CNN
@@ -189,7 +189,7 @@ F 3 "" H 3750 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L mysensors-rescue:C-imm_lib C8
+L MySensors328p-rescue:C-imm_lib-mysensors-rescue C8
 U 1 1 5B8E61B0
 P 3900 3950
 F 0 "C8" V 3648 3950 50  0000 C CNN
@@ -234,7 +234,7 @@ Wire Wire Line
 	4150 3450 4150 3550
 Connection ~ 4150 3950
 $Comp
-L mysensors-rescue:C-imm_lib C2
+L MySensors328p-rescue:C-imm_lib-mysensors-rescue C2
 U 1 1 5B8ED208
 P 1750 3950
 F 0 "C2" H 1865 3996 50  0000 L CNN
@@ -245,7 +245,7 @@ F 3 "" H 1750 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impulse-rescue:R-imm_lib R1
+L MySensors328p-rescue:R-imm_lib-impulse-rescue R1
 U 1 1 5B8ED2A2
 P 1700 3650
 F 0 "R1" V 1493 3650 50  0000 C CNN
@@ -292,7 +292,7 @@ IRQ
 Text GLabel 2650 2550 2    50   Input ~ 0
 3,3V
 $Comp
-L mysensors-rescue:C-imm_lib C3
+L MySensors328p-rescue:C-imm_lib-mysensors-rescue C3
 U 1 1 5B9006DB
 P 1950 2450
 F 0 "C3" H 2065 2496 50  0000 L CNN
@@ -303,7 +303,7 @@ F 3 "" H 1950 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mysensors-rescue:C-imm_lib C1
+L MySensors328p-rescue:C-imm_lib-mysensors-rescue C1
 U 1 1 5B900755
 P 1550 2450
 F 0 "C1" H 1665 2496 50  0000 L CNN
@@ -347,7 +347,7 @@ Text GLabel 6350 2100 2    50   Input ~ 0
 Wire Wire Line
 	6350 2100 6250 2100
 $Comp
-L impulse3-rescue:NRF24L01-imm_lib U1
+L MySensors328p-rescue:NRF24L01-imm_lib-impulse3-rescue U1
 U 1 1 5B8C34D0
 P 2550 3350
 F 0 "U1" H 2550 4328 50  0000 C CNN
@@ -396,7 +396,7 @@ F 3 "" H 8900 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impulse-rescue:R-imm_lib R2
+L MySensors328p-rescue:R-imm_lib-impulse-rescue R2
 U 1 1 5B8CF24B
 P 7150 5350
 F 0 "R2" V 6943 5350 50  0000 C CNN
@@ -643,7 +643,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 3450 9100 3450
 $Comp
-L cache:Conn_Coaxial J2
+L MySensors328p-rescue:Conn_Coaxial-cache J2
 U 1 1 5B93FBDD
 P 4150 3250
 F 0 "J2" H 4249 3226 50  0000 L CNN
@@ -654,7 +654,7 @@ F 3 "" H 4150 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L impulse-rescue:R-imm_lib R3
+L MySensors328p-rescue:R-imm_lib-impulse-rescue R3
 U 1 1 5B9466CF
 P 4500 3150
 F 0 "R3" V 4293 3150 50  0000 C CNN
