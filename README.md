@@ -1,23 +1,23 @@
 # MySensors328p
 
 
-P1
-1 - PB7
-2 - PD5
-3 - PD6
-4 - PD7
-5 - PB0
-6 - PB2/CSN
-7 - PB1/CE
-8 - PB4/MISO
-9 - PB3/MOSI
-10 - GND
-11 - ADC6
-12 - 3,3V
-13 - AREF
-14 - PB5/SCK
+### P1
+- 1 - PB7
+- 2 - PD5
+- 3 - PD6
+- 4 - PD7
+- 5 - PB0
+- 6 - PB2/CSN
+- 7 - PB1/CE
+- 8 - PB4/MISO
+- 9 - PB3/MOSI
+- 10 - GND
+- 11 - ADC6
+- 12 - 3,3V
+- 13 - AREF
+- 14 - PB5/SCK
 
-P2
+### P2
 1 - PD3/RESET
 2 - PD4
 3 - PD1
