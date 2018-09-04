@@ -1,6 +1,6 @@
-update=nie, 2 wrz 2018, 15:37:35
+update=pon, 3 wrz 2018, 16:17:44
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=impulse3.net
+LastNetListRead=MySensors328p.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
