@@ -27,6 +27,7 @@
 - контроллер заряда аккумулятора (TP4056)
 - счетчик DS2423
 - дополнительные выводы Atmega 328p
+- аккумулятор 3,7в формафактора 402020(20мм-20мм-4мм), 502020(20мм-20мм-5мм), 602020(20мм-20мм-5мм)
 
 ![img](https://github.com/immortalserg/MySensors328p/blob/master/MysensorsSensor/MySensorsBME280_top.png?raw=true)
 ![img](https://github.com/immortalserg/MySensors328p/blob/master/MysensorsSensor/MySensorsBME280_bot.png?raw=true)
