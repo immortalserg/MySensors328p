@@ -20,9 +20,18 @@
 ## MysensorsSensor
 
 Универсальный датчик
+- беспроводной приемник-передатчик nrf24l01+
+- управляющий процессор Atmega 328p с возможностью шифрования (ATSHA204-TSU) и дополнительной памятью (AT25xx).
+- встроенный датчик температуры, давления и влажности BME280
+- встроенный USB-UART преобразователь на микросхеме CP2102
+- контроллер заряда аккумулятора (TP4056)
+- счетчик DS2423
+- дополнительные выводы Atmega 328p
+
+![img](https://github.com/immortalserg/MySensors328p/blob/master/MysensorsSensor/MySensorsBME280_top.png?raw=true)
+![img](https://github.com/immortalserg/MySensors328p/blob/master/MysensorsSensor/MySensorsBME280_bot.png?raw=true)
+
 
 ## MySensorsShield
 
-![img](https://github.com/immortalserg/MySensors328p/blob/master/image/MySensors328p_3D.png?raw=true)
-![img](https://github.com/immortalserg/MySensors328p/blob/master/image/MySensors328p_top.png?raw=true)
-![img](https://github.com/immortalserg/MySensors328p/blob/master/image/MySensors328p_bot.png?raw=true)
+
