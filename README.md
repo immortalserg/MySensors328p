@@ -11,6 +11,7 @@
 - встроенный датчик температуры, давления и влажности BME280
 - встроенный USB-UART преобразователь на микросхеме CP2102
 - контроллер заряда аккумулятора (TP4056)
+- аккумулятор 3,7 В формафактора до 70мм-50мм (рекомендуемый 305570 (55мм-70мм-3мм))
 
 Корпус https://www.tinkercad.com/things/eCkWAxR6Mgm-mysensorskey#/
 
@@ -27,7 +28,7 @@
 - контроллер заряда аккумулятора (TP4056)
 - счетчик DS2423
 - дополнительные выводы Atmega 328p
-- аккумулятор 3,7в формафактора 402020(20мм-20мм-4мм), 502020(20мм-20мм-5мм), 602020(20мм-20мм-5мм)
+- аккумулятор 3,7 В формафактора 402020(20мм-20мм-4мм), 502020(20мм-20мм-5мм), 602020(20мм-20мм-5мм)
 
 ![img](https://github.com/immortalserg/MySensors328p/blob/master/MysensorsSensor/MySensorsBME280_top.png?raw=true)
 ![img](https://github.com/immortalserg/MySensors328p/blob/master/MysensorsSensor/MySensorsBME280_bot.png?raw=true)
