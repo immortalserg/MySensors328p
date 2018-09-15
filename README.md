@@ -14,6 +14,9 @@
 
 Корпус https://www.tinkercad.com/things/eCkWAxR6Mgm-mysensorskey#/
 
+![img](https://github.com/immortalserg/MySensors328p/blob/master/MysensorsKey/MySensorsKeyBot.png?raw=true)
+![img](https://github.com/immortalserg/MySensors328p/blob/master/MysensorsKey/MySensorsKeyTop.png?raw=true)
+
 ## MysensorsSensor
 
 Универсальный датчик
