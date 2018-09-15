@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name MySensors328p-rescue)(type Legacy)(uri ${KIPRJMOD}/MySensors328p-rescue.lib)(options "")(descr ""))
-)
